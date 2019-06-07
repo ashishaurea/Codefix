@@ -37,18 +37,18 @@ public class BIrdCount {
     }
 
 
-    public static void main(String[] args) throws IOException {
+//     public static void main(String[] args) throws IOException {
 
-    		Scanner s = new Scanner(System.in);
-    		int arCount = s.nextInt();
-    		int[] ar = new int[arCount];
+//     		Scanner s = new Scanner(System.in);
+//     		int arCount = s.nextInt();
+//     		int[] ar = new int[arCount];
 
-        for (int arItr = 0; arItr < arCount; arItr++) {
-                        ar[arItr] = s.nextInt();
-        }
-        int result = migratoryBirds(arCount, ar);
+//         for (int arItr = 0; arItr < arCount; arItr++) {
+//                         ar[arItr] = s.nextInt();
+//         }
+//         int result = migratoryBirds(arCount, ar);
 
        
-        s.close();
-    }
+//         s.close();
+//     }
 }
