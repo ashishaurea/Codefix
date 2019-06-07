@@ -25,27 +25,27 @@ class sub_subAbstract extends subAbstract{
 	}
 }
 
-public class AbstractClassExample {
+// public class AbstractClassExample {
 
-	public static void main(String[] args) {
-		// SuperAbstract ob1 = new SuperAbstract(); object cannot be created for abstract method
-		// subAbstract ob2 = new subAbstract();  object cannot be created as subAbstract is abstract class
-		sub_subAbstract ob3 = new sub_subAbstract();
-		ob3.Display(); // concrete method of super class
-		ob3.showmeToo();
-		ob3.show(); // implementation of the abstract method
+// 	public static void main(String[] args) {
+// 		// SuperAbstract ob1 = new SuperAbstract(); object cannot be created for abstract method
+// 		// subAbstract ob2 = new subAbstract();  object cannot be created as subAbstract is abstract class
+// 		sub_subAbstract ob3 = new sub_subAbstract();
+// 		ob3.Display(); // concrete method of super class
+// 		ob3.showmeToo();
+// 		ob3.show(); // implementation of the abstract method
 		
-		SuperAbstract ob1;  // object reference variable of Abstract class can be created
-		ob1 = ob3;
-		ob1.Display();
-		ob1.show();
+// 		SuperAbstract ob1;  // object reference variable of Abstract class can be created
+// 		ob1 = ob3;
+// 		ob1.Display();
+// 		ob1.show();
 		
-		 subAbstract ob2;
-		 ob2 = ob3;
-		 ob2.Display();
-		 ob2.show();
-		 ob2.showmeToo();
+// 		 subAbstract ob2;
+// 		 ob2 = ob3;
+// 		 ob2.Display();
+// 		 ob2.show();
+// 		 ob2.showmeToo();
 		
-	}
+// 	}
 
 }
